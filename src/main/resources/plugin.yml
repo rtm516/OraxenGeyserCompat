@@ -1,0 +1,5 @@
+name: OraxenGeyserCompat
+version: '${version}'
+main: com.rtm516.oraxengeysercompat.OraxenGeyserCompat
+api-version: '1.21'
+depend: ["Geyser-Spigot", "Oraxen"]

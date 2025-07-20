@@ -1,0 +1,17 @@
+[versions]
+#geyser = "2.7.0-SNAPSHOT"
+geyser = "custom-item-api-v2-SNAPSHOT"
+pack-converter = "3.3.2-SNAPSHOT"
+paper = "1.21.7-R0.1-SNAPSHOT"
+oraxen = "1.191.0"
+shadow = "8.3.8"
+
+[libraries]
+#geyser-api = { group = "org.geysermc.geyser", name = "api", version.ref = "geyser" }
+geyser-api = { group = "com.github.eclipseisoffline.Geyser", name = "api", version.ref = "geyser" }
+pack-converter = { group = "org.geysermc.pack", name = "converter", version.ref = "pack-converter" }
+paper = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper" }
+oraxen = { group = "io.th0rgal", name = "oraxen", version.ref = "oraxen" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
